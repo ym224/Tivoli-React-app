@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,700');
+
+.tivoli-primary{
+  background-color: #000000;
+	height: 69px;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  color: #fcfcfc;
+}
+.nav-item{
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+}
+.nav-item a{
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: bold;
+  color: #fcfcfc !important;
+}
+#tivoli-brand-image{
+  width: 145px;
+  height: 58px;
+}
+
+#icon_gear{
+  width: 32.1px;
+  height: 32.2px;
+}
+
+#icon_profile{
+  width: 32.1px;
+  height: 32.2px;
+  margin-right: 38px;
+}
+/* agenda creation styles */
+.primary-txt-agenda{
+  font-family: 'Open Sans';
+  font-size: 20px;
+  line-height: 1.35;
+  font-weight: 300;
+}
+.secondary-txt-agenda{
+  font-family: 'Dosis';
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 1.22;
+  text-align: left;
+}
+.agenda-new-root{
+  margin-left: 80px;
+}
+.set-up-agenda{
+  font-weight: bold;
+  text-align: left;
+  color: #4f4c9f;
+}
+.agenda-description {
+  width: 599.5px;
+  height: 100px;
+  background-color: #ffffff;
+  border: solid 1px #d3d3d3;
+  margin-bottom: 20px;
+}
+.btn-skip{
+  margin-left: 643px;
+  background-color: #dee0e8;
+}
+.btn-create-agenda {
+  margin-top: 20px;
+  margin-left: 720px;
+  background-color: #f4bb3b;
+}
+.save-and-create {
+  color: #ffffff;
+  line-height: 1.65;
+}
+.skip {
+  color: #4f4c9f;
+  line-height: 1.65;
+}
+.add-new-segment{
+  margin-top: 20px;
+  color: #f4bb3b;
+}
+.agenda-title{
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.clear-inline {
+    display: block;
+}
+.dropdown-agenda{
+  margin-bottom: 5px;
+}
+
+.bg-light-primary {
+	background-color: #f7f7f7;
+}
+.dashboard-date-panel{
+  background-color: #f2f2f2 !important;
+  /* box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.16); */
+  box-shadow: 3px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-date{
+
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  padding-top: 0.5em;
+  color: white;
+  width: 81px;
+  height: 81px;
+  margin-top: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 17px;
+  background-color: #5d5df7 !important;
+}
+
+.dashboard-event-div{
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  width: 341.8px;
+  height: 216.3px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff !important;
+  border: solid 1px #d9d9d9;
+  margin: 1em 1em 1em 1em;
+  position: relative;
+  float: left;
+}
+.dashboard-title {
+  font-family: 'Open Sans';
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+  position: absolute;
+  top:45px;
+  left:28px;
+  right:28px;
+}
+.dashboard-horizontal-line{
+  width: 100%;
+  height: 0;
+  border: solid 1px #cecece;
+  position: absolute;
+  left:0;
+}
+.dashboard-event-list-item{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  font-family: 'Dosis';
+  font-size: 12px;
+  color: #777777 !important;
+  background-color: #f2f2f2 !important;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 21px;
+}
+.event-detail{
+  padding-left:0;
+}
+.event-detail-left-panel{
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.event-detail-left-panel-item-title{
+  padding-left: 33px;
+  margin-bottom: 17px;
+  margin-top: 15px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: #b2d6ff;
+}
+
+.event-detail-right-panel{
+  background-color: #f2f2f2;
+  height: 92vh;
+  margin-left: 0px;
+  padding-right: 0;
+  overflow: scroll;
+}
+.detail-box{
+  padding: 20px 24px 20px 24px;
+}
+.detail-box .title{
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: bold;
+  color: #4f4c9f;
+  line-height: 1.45;
+  color: #000000;
+}
+.detail-box .details{
+  font-family: 'Dosis';
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.6;
+  color: #777777;
+  margin-top: 8px;
+}
+
+.event-detail-right-panel .linebreak{
+  border: solid 1px #777777;
+  width: 100%;
+}
+
+.followup-box{
+  display: inline-block;
+  border-radius: 9px;
+  background-color: #ffffff;
+  padding: 13px 14px 8px 14px;
+  margin-top: 25px;
+  margin-right: 20px;
+  width: 100%;
+}
+.followup-box .followupString{
+  font-family: 'Dosis';
+  color: #000000;
+  font-size: 18px;
+  float: left;
+  word-wrap: break-word;
+  width: 82%;
+}
+.followup-box .delete-button{
+  float: right;
+  margin: 0 auto;
+  width: 14px;
+}
+.note-editor{
+  font-family: 'Dosis';
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+}
+
+#note-editior-back-button{
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #777777 !important;
+  float: left;
+  margin: 12px 12px 12px 12px;
+
+}
+
+.note-editor-buttons{
+  height: 43px;
+  background-color: #fcfcfc;
+  background-color: var(--offwhite);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.note-editor-buttons .button{
+  float: left;
+  margin-left: 10px;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #777777;
+  margin: 12px 12px 12px 12px;
+}
+#pin_icon{
+  width: 17.9px;
+  height: 19px;
+  margin-right: 9px;
+  margin-bottom: 4px;
+}
+#share_icon{
+  width: 17.9px;
+  height: 19px;
+  margin-right: 9px;
+  margin-bottom: 4px;
+}
+.note-editor-buttons .linebreak{
+  float: left;
+  width: 0;
+  height: 43px;
+  border: solid 1px #dee0e8;
+}
+.note-editor-editable{
+  margin-top: 43px;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding: 67px 70px 67px 70px;
+  height: 670px;
+  overflow: scroll;
+  background-color: #ffffff;
+  border: solid 1px #d3d3d3;
+  font-family: 'Dosis';
+  font-size: 18px;
+}
+.feedback-font{
+  font-family: 'Open Sans';
+  font-size: 20px;
+  line-height: 1.35;
+  text-align: center;
+  color: #000000;
+}
+.btn-feedback{
+  width: 392px;
+  height: 58px;
+  position: fixed;
+  bottom: 0;
+  background-color: #5d5df7;
+}
+.btn-feedback-txt{
+  font-family: 'Dosis';
+  font-size: 20px;
+  line-height: 1.3;
+  margin-top: 10px;
+  text-align: center;
+  color: #f7f7f7;
+}
+.btn-back{
+  margin-top: 15px;
+  margin-left: 31px;
+  text-decoration: none;
+  text-align: left;
+  color: #5d5df7;
+}
+.feedback-box{
+  width: 705px;
+  height: 307px;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.post-evaluation {
+  width: 352.5px;
+  height: 24px;
+  margin: 12px auto;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+.post-evaluation-description{
+  width: 639.2px;
+  margin: 15px auto 38px auto;
+  height: 31px;
+  font-family: 'Dosis';
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  color: #000000;
+}
+.feedback-prompt{
+  padding-top: 64px;
+}
+
+.feedback-rating{
+  padding: 55px 100px;
+  display: flex;
+  justify-content: center;
+}
+.feedback-buttons-group {
+  margin: auto;
+  width: 434px;
+}
+.feedback-one-btn-wrapper{
+  margin: auto;
+  width: 207px;
+}
+
+.indicator {
+  margin: auto;
+  width: 135px;
+  margin-top: 20px;
+}
+.dot-image {
+  width: 15px;
+  height: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.btn{
+  margin: auto;
+  width: 207px;
+  height: 50px;
+  border-radius: 8px;
+  justify-content: center;
+}
+.btn:focus {
+  box-shadow:none;
+}
+.btn-prev{
+  background-color: rgb(190, 221, 241);
+  color: #ffffff;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+.btn-next{
+  background-color: #5d5df7;
+  color: #ffffff;
+  margin-top: 50px;
+}
+.btn-skip{
+  border: none;
+  background-color: rgb(247, 247, 247);
+  color: #777777;
+  margin-top: 10px;
+}
+.fa-star:before{
+  color: #5d5df7;
+}
+.fa-thumbs-up:before{
+  color: #5d5df7
+}
+.fa-thumbs-down:before{
+  color: #5d5df7
+}
+.fa{
+  color: #dee0e8;
+}
+.thumbs-rating .fa{
+    margin: 0 40px 0 40px;
+}
+.selected-thumbs {
+  display: inline-flex;
+  margin: 0 40px 0 40px;
+  opacity: 1;
+}
+.thumbs {
+  display: inline-flex;
+  margin: 0 40px 0 40px;
+  opacity: 0.5;
+}
+.feedback-tags{
+    margin: 20px 80px 20px 80px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.feedback-tag, .feedback-tag-default, .feedback-tag-selected{
+  white-space: nowrap;
+  font-family: 'Dosis';
+  font-size: 19px;
+  line-height: 1.32;
+  text-align: center;
+  border-radius: 6px;
+  border: solid 1px #5d5df7;
+  margin-right: 15px;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 10px;
+}
+.feedback-tag-default{
+  background-color: #ffffff;
+  color: #5d5df7;
+}
+.feedback-tag-selected{
+  background-color: #5d5df7;
+  color: #fcfcfc;
+}
+.thumbs-image{
+  width: 90px;
+  height: 90px;
+}
+#icon_close{
+  width: 13.4px;
+  height: 13.4px;
+}
+#icon_close_purple{
+  width: 16.4px;
+  height: 16.4px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
